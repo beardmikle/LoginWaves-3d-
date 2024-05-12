@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F85367DB2BF15914001A994A /* SplineRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = F85367DA2BF15914001A994A /* SplineRuntime */; };
 		F8D26BEC2BEFAFE2004BF40A /* Login3DApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D26BEB2BEFAFE2004BF40A /* Login3DApp.swift */; };
-		F8D26BEE2BEFAFE2004BF40A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D26BED2BEFAFE2004BF40A /* ContentView.swift */; };
 		F8D26BF02BEFAFE4004BF40A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D26BEF2BEFAFE4004BF40A /* Assets.xcassets */; };
 		F8D26BF42BEFAFE4004BF40A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D26BF32BEFAFE4004BF40A /* Preview Assets.xcassets */; };
-		F8D26BFE2BEFAFE4004BF40A /* Login3DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D26BFD2BEFAFE4004BF40A /* Login3DTests.swift */; };
-		F8D26C082BEFAFE4004BF40A /* Login3DUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D26C072BEFAFE4004BF40A /* Login3DUITests.swift */; };
-		F8D26C0A2BEFAFE4004BF40A /* Login3DUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D26C092BEFAFE4004BF40A /* Login3DUITestsLaunchTests.swift */; };
+		F8D26C172BEFB155004BF40A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D26C162BEFB155004BF40A /* LoginView.swift */; };
+		F8D26C192BEFB4C7004BF40A /* Waves3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D26C182BEFB4C7004BF40A /* Waves3D.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +33,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F85367DF2BF1629C001A994A /* Login3D.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Login3D.entitlements; sourceTree = "<group>"; };
 		F8D26BE82BEFAFE2004BF40A /* Login3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D26BEB2BEFAFE2004BF40A /* Login3DApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login3DApp.swift; sourceTree = "<group>"; };
-		F8D26BED2BEFAFE2004BF40A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8D26BEF2BEFAFE4004BF40A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F8D26BF12BEFAFE4004BF40A /* Login3D.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Login3D.entitlements; sourceTree = "<group>"; };
 		F8D26BF32BEFAFE4004BF40A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F8D26BF92BEFAFE4004BF40A /* Login3DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Login3DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8D26BFD2BEFAFE4004BF40A /* Login3DTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login3DTests.swift; sourceTree = "<group>"; };
 		F8D26C032BEFAFE4004BF40A /* Login3DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Login3DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8D26C072BEFAFE4004BF40A /* Login3DUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login3DUITests.swift; sourceTree = "<group>"; };
-		F8D26C092BEFAFE4004BF40A /* Login3DUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login3DUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F8D26C162BEFB155004BF40A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F8D26C182BEFB4C7004BF40A /* Waves3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waves3D.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F85367DB2BF15914001A994A /* SplineRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				F8D26BEA2BEFAFE2004BF40A /* Login3D */,
-				F8D26BFC2BEFAFE4004BF40A /* Login3DTests */,
-				F8D26C062BEFAFE4004BF40A /* Login3DUITests */,
 				F8D26BE92BEFAFE2004BF40A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,10 +92,11 @@
 			isa = PBXGroup;
 			children = (
 				F8D26BEB2BEFAFE2004BF40A /* Login3DApp.swift */,
-				F8D26BED2BEFAFE2004BF40A /* ContentView.swift */,
 				F8D26BEF2BEFAFE4004BF40A /* Assets.xcassets */,
-				F8D26BF12BEFAFE4004BF40A /* Login3D.entitlements */,
+				F85367DF2BF1629C001A994A /* Login3D.entitlements */,
 				F8D26BF22BEFAFE4004BF40A /* Preview Content */,
+				F8D26C162BEFB155004BF40A /* LoginView.swift */,
+				F8D26C182BEFB4C7004BF40A /* Waves3D.swift */,
 			);
 			path = Login3D;
 			sourceTree = "<group>";
@@ -110,23 +107,6 @@
 				F8D26BF32BEFAFE4004BF40A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		F8D26BFC2BEFAFE4004BF40A /* Login3DTests */ = {
-			isa = PBXGroup;
-			children = (
-				F8D26BFD2BEFAFE4004BF40A /* Login3DTests.swift */,
-			);
-			path = Login3DTests;
-			sourceTree = "<group>";
-		};
-		F8D26C062BEFAFE4004BF40A /* Login3DUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F8D26C072BEFAFE4004BF40A /* Login3DUITests.swift */,
-				F8D26C092BEFAFE4004BF40A /* Login3DUITestsLaunchTests.swift */,
-			);
-			path = Login3DUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +125,9 @@
 			dependencies = (
 			);
 			name = Login3D;
+			packageProductDependencies = (
+				F85367DA2BF15914001A994A /* SplineRuntime */,
+			);
 			productName = Login3D;
 			productReference = F8D26BE82BEFAFE2004BF40A /* Login3D.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +200,9 @@
 				Base,
 			);
 			mainGroup = F8D26BDF2BEFAFE2004BF40A;
+			packageReferences = (
+				F85367D92BF15913001A994A /* XCRemoteSwiftPackageReference "spline-ios" */,
+			);
 			productRefGroup = F8D26BE92BEFAFE2004BF40A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,7 +245,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8D26BEE2BEFAFE2004BF40A /* ContentView.swift in Sources */,
+				F8D26C172BEFB155004BF40A /* LoginView.swift in Sources */,
+				F8D26C192BEFB4C7004BF40A /* Waves3D.swift in Sources */,
 				F8D26BEC2BEFAFE2004BF40A /* Login3DApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +255,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8D26BFE2BEFAFE4004BF40A /* Login3DTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8D26C082BEFAFE4004BF40A /* Login3DUITests.swift in Sources */,
-				F8D26C0A2BEFAFE4004BF40A /* Login3DUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +601,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F85367D92BF15913001A994A /* XCRemoteSwiftPackageReference "spline-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/splinetool/spline-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F85367DA2BF15914001A994A /* SplineRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F85367D92BF15913001A994A /* XCRemoteSwiftPackageReference "spline-ios" */;
+			productName = SplineRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F8D26BE02BEFAFE2004BF40A /* Project object */;
 }

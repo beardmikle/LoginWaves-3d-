@@ -11,7 +11,10 @@ import SwiftUI
 struct Login3DApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+
+            LoginView()
         }
     }
 }
+
+

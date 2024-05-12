@@ -1,18 +1,14 @@
-//
-//  Waves3D.swift
-//  Login3D
-//
-//  Created by beardmikle on 11.05.2024.
-//
-
+import SplineRuntime
 import SwiftUI
 
 struct Waves3D: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+        // fetching from cloud
+        let url = URL(string: "https://build.spline.design/htvu0ddK07DQVK16LO1o/scene.splineswift")!
 
-#Preview {
-    Waves3D()
+        // // fetching from local
+        // let url = Bundle.main.url(forResource: "scene", withExtension: "splineswift")!
+
+        try? SplineView(sceneFileURL: url).ignoresSafeArea(.all)
+    }
 }
